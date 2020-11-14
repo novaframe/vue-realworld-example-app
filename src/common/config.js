@@ -1,2 +1,2 @@
-export const API_URL = "https://conduit.productionready.io/api";
+export const API_URL = "http://lcoalhost:8080/api";
 export default API_URL;
