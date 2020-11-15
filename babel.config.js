@@ -1,5 +1,8 @@
 module.exports = {
   env: {
+    prd: {
+      presets: ["@vue/app"]
+    },
     dev: {
       presets: ["@vue/app"]
     },

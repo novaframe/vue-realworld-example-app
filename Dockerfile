@@ -19,6 +19,7 @@ RUN yarn run build
 
 ## 2. Runtime Container ##
 FROM alpine:3.12.1 
+LABEL maintainer="Hyeokju Lee <frame99@gmail.com>"
 
 # 필요 패키지 설치 
 RUN apk add --update npm && \
